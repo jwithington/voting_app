@@ -1,3 +1,9 @@
+### What's this?
+
+This is an app I'm building while following [Fullstack React](https://www.fullstackreact.com/). 
+
+My goodness, what a good book!
+
 ### Running the app
 
 1. Ensure you have `npm` installed.
