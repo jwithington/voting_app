@@ -2,6 +2,9 @@ class ProductList extends React.Component {
   render() {
     const products = Seed.products.sort((a, b) => (
       b.votes - a.votes
+      // if return is less than 0, a comes first
+      // if return is greater than 0, b comes first
+      // if return is equal to 0, leave order unchanged
     ));
     const productComponents = Seed.products.map((product) =>
       <Product
